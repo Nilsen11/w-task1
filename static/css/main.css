@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamPro', serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 335px;
+    margin: 0 auto;
+}
+
+.card__image {
+    position: relative;
+}
+
+.card__company {
+    position: absolute;
+    z-index: 1;
+    bottom: 15px;
+    left: 20px;
+}
+
+.card__image p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card__text {
+    padding: 18px 23px;
+    box-shadow: 0 5px 5px 1px rgba(23, 24, 25, 0.05);
+}
+
+.card__text__info {
+    color: #48494a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.card__text__price {
+    color: #80848d;
+    font-size: 12px;
+}
+
+.card__text__price span {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #fffbd7;
+    font-size: 18px;
+    color: #161617;
+}
