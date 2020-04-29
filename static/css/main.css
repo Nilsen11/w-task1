@@ -49,6 +49,7 @@ p {
 .card__text__price {
     color: #80848d;
     font-size: 12px;
+    padding-bottom: 15px;
 }
 
 .card__text__price span {
